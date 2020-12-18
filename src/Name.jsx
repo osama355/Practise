@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-const Name=(props)=>{
-  console.log(props)
-  console.log(props.name)
-  return(
+const Name = (props) => {
+  const { name, children } = props;
+  console.log(props);
+  console.log(name);
+  return (
     <>
-      <h1>Hello {props.name}</h1>
-      {props.children}
+      <h1>Hello {name}</h1>
+      {children}
     </>
+  );
+};
 
-  )
-}
- 
 export default Name;
