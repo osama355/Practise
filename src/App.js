@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Name from "./Name";
 import Message from "./Message";
 import Counter from "./Counter";
+import FunClick from "./FunClick";
+import ClassClick from "./ClassClick";
 
 class App extends Component {
   render() {
@@ -14,6 +16,8 @@ class App extends Component {
         <Name name="Ali" />
         <Message />
         <Counter />
+        <FunClick /> {/*function click*/}
+        <ClassClick /> {/*class click*/}
       </div>
     );
   }
