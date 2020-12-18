@@ -1,22 +1,21 @@
-import React,{Component} from 'react';
-import Name from './Name';
-import Message from './Message';
+import React, { Component } from "react";
+import Name from "./Name";
+import Message from "./Message";
+import Counter from "./Counter";
 
-class App extends Component{
-  render(){
-    return( 
-    <div>
-      <h1>Class Component</h1>
-      <Name name="osama" >
-        <p>This is child component</p>
-      </Name>
-      <Name name="Ali" />
-
-      <Message/>
-
-
-    </div>
-    )
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Class Component</h1>
+        <Name name="osama">
+          <p>This is child component</p>
+        </Name>
+        <Name name="Ali" />
+        <Message />
+        <Counter />
+      </div>
+    );
   }
 }
 export default App;
