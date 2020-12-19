@@ -5,12 +5,14 @@ import Counter from "./Counter";
 import FunClick from "./FunClick";
 import ClassClick from "./ClassClick";
 import Binding from "./Binding";
+import Parent from "./Parent";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Binding />
+        <Parent />
+        {/* <Binding /> */}
         {/* <h1>Class Component</h1>
         <Name name="osama">
           <p>This is child component</p>
