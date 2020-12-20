@@ -6,12 +6,14 @@ import FunClick from "./FunClick";
 import ClassClick from "./ClassClick";
 import Binding from "./Binding";
 import Parent from "./Parent";
+import CondRendering from "./CondRendering";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Parent />
+        <CondRendering />
+        {/* <Parent /> */}
         {/* <Binding /> */}
         {/* <h1>Class Component</h1>
         <Name name="osama">
