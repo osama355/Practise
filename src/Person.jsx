@@ -1,9 +1,9 @@
 import React from "react";
 
-const Person = ({ person }) => {
+const Person = ({ person, key }) => {
   return (
     <h1>
-      My name is {person.name}. I am {person.age} years old. I am in{" "}
+      {key} My name is {person.name}. I am {person.age} years old. I am in{" "}
       {person.program} department.
     </h1>
   );
