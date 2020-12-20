@@ -7,12 +7,16 @@ import ClassClick from "./ClassClick";
 import Binding from "./Binding";
 import Parent from "./Parent";
 import CondRendering from "./CondRendering";
+import NameList from "./NameList";
+import PersonList from "./PersonList";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <CondRendering />
+        <NameList />
+        <PersonList />
+        {/* <CondRendering /> */}
         {/* <Parent /> */}
         {/* <Binding /> */}
         {/* <h1>Class Component</h1>
