@@ -10,12 +10,14 @@ import CondRendering from "./CondRendering";
 import NameList from "./NameList";
 import PersonList from "./PersonList";
 import IndAsKey from "./IndAsKey";
+import Inline from "./Inline";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <IndAsKey />
+        <Inline />
+        {/* <IndAsKey /> */}
         {/* <NameList />
         <PersonList /> */}
         {/* <CondRendering /> */}
