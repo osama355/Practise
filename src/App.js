@@ -11,12 +11,14 @@ import NameList from "./NameList";
 import PersonList from "./PersonList";
 import IndAsKey from "./IndAsKey";
 import Inline from "./Inline";
+import Form from "./Form";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Inline />
+        <Form />
+        {/* <Inline /> */}
         {/* <IndAsKey /> */}
         {/* <NameList />
         <PersonList /> */}
