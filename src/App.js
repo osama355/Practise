@@ -12,12 +12,14 @@ import PersonList from "./PersonList";
 import IndAsKey from "./IndAsKey";
 import Inline from "./Inline";
 import Form from "./Form";
+import ParentMemo from "./ParentMemo";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Form />
+        <ParentMemo />
+        {/* <Form /> */}
         {/* <Inline /> */}
         {/* <IndAsKey /> */}
         {/* <NameList />
