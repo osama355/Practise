@@ -61,7 +61,7 @@ const PersonList = () => {
     },
     {
       id: 3,
-      name: "Ubaid",
+      name: "Mounis",
       age: 23,
       program: "BSSE"
     },

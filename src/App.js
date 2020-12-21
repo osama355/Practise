@@ -9,13 +9,15 @@ import Parent from "./Parent";
 import CondRendering from "./CondRendering";
 import NameList from "./NameList";
 import PersonList from "./PersonList";
+import IndAsKey from "./IndAsKey";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <NameList />
-        <PersonList />
+        <IndAsKey />
+        {/* <NameList />
+        <PersonList /> */}
         {/* <CondRendering /> */}
         {/* <Parent /> */}
         {/* <Binding /> */}
