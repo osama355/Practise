@@ -14,12 +14,14 @@ import Inline from "./Inline";
 import Form from "./Form";
 import ParentMemo from "./ParentMemo";
 import RefDemo from "./RefDemo";
+import Portal from "./Portal";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <RefDemo />
+        <Portal />
+        {/* <RefDemo /> */}
         {/* <ParentMemo /> */}
         {/* <Form /> */}
         {/* <Inline /> */}
