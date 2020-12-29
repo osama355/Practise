@@ -24,7 +24,11 @@ class App extends Component {
       <div>
         <Errorboundary>
           <Hero heroname="Osama" />
+        </Errorboundary>
+        <Errorboundary>
           <Hero heroname="Hamza" />
+        </Errorboundary>
+        <Errorboundary>
           <Hero heroname="Ubaid" />
         </Errorboundary>
 
