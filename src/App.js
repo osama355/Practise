@@ -15,12 +15,20 @@ import Form from "./Form";
 import ParentMemo from "./ParentMemo";
 import RefDemo from "./RefDemo";
 import Portal from "./Portal";
+import Hero from "./Hero";
+import Errorboundary from "./Errorboundary";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Portal />
+        <Errorboundary>
+          <Hero heroname="Osama" />
+          <Hero heroname="Hamza" />
+          <Hero heroname="Ubaid" />
+        </Errorboundary>
+
+        {/* <Portal /> */}
         {/* <RefDemo /> */}
         {/* <ParentMemo /> */}
         {/* <Form /> */}
